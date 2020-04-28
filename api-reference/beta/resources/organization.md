@@ -56,6 +56,7 @@ This resource lets you add your own data to custom properties using [extensions]
 | street | String | Street name of the address for organization. |
 | technicalNotificationMails |String collection | Not nullable. |
 | verifiedDomains | [verifiedDomain](verifieddomain.md) collection|The collection of domains associated with this tenant. Not nullable. |
+| settings | [organizationsettings](organizationsettings.md) | The current organization settings.|
 
 ## Relationships
 
@@ -104,7 +105,8 @@ Here is a JSON representation of the resource
   "technicalNotificationMails": ["string"],
   "verifiedDomains": [{"@odata.type": "microsoft.graph.verifiedDomain"}],
   "companyLastDirSyncTime": "2019-02-07T20:33:52.942Z",
-  "dirSyncEnabled": true
+  "dirSyncEnabled": true,
+  "settings": {"@odata.type": "microsoft.graph.organizationsettings"
 }
 ```
 
