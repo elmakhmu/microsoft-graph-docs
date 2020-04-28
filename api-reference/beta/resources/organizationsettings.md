@@ -32,7 +32,7 @@ This resource supports:
 
 | Property	   | Type	|Description|
 |:---------------|:--------|:----------|
-|itemInsights|[itemInsights](itemInsights.md)| Properties that you can use to tune item insights availability|
+|itemInsights|[itemInsightsSettings](itemInsightsSettings.md)| Properties that you can use to tune item insights availability|
 
 ## Relationships
 
