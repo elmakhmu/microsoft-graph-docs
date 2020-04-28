@@ -106,7 +106,7 @@ Here is a JSON representation of the resource
   "verifiedDomains": [{"@odata.type": "microsoft.graph.verifiedDomain"}],
   "companyLastDirSyncTime": "2019-02-07T20:33:52.942Z",
   "dirSyncEnabled": true,
-  "settings": {"@odata.type": "microsoft.graph.organizationsettings"
+  "settings": {"@odata.type": "microsoft.graph.organizationSettings"
 }
 ```
 
