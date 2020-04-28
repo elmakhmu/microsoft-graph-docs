@@ -1,6 +1,6 @@
 ---
 title: "itemInsightsSettings resource type"
-description: "Represents a company's itemInsight settings."
+description: "Complex type containing itemInsights settings."
 localization_priority: Normal
 author: "elmakhmu"
 ms.prod: ""
@@ -11,7 +11,7 @@ doc_type: resourcePageType
 
 Namespace: microsoft.graph
 
-Represents a company's itemInsights settings.
+Complex type containing itemInsights settings.
 
 ## Properties
 | Property   | Type|Description|
