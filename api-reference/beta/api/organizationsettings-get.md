@@ -16,6 +16,8 @@ Namespace: microsoft.graph
 Read organization [organizationsettings](../resources/organizationsettings.md) object.
 To learn how to update the properties of the [organizationsettings](../resources/organizationsettings.md) object, see [organizationsettings-update](organizationsettings-update.md).
 
+To learn how to tune item insights for your organization needs, see [itemInsights](../resources/itemInsights.md) object.
+
 ## Permissions
 
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
