@@ -11,6 +11,8 @@ doc_type: resourcePageType
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
+[!INCLUDE [itemInsightsdisclaimer](../../includes/itemInsightsdisclaimer.md)]
+
 Insights are relationships calculated using advanced analytics and machine learning techniques. You can, for example, identify OneDrive for Business documents trending around users.
 
 Insights are returned by the following APIs:
