@@ -8,5 +8,4 @@ ms.author: jasonjoh
 <!-- markdownlint-disable MD041-->
 
 > [!IMPORTANT]
-> ItemInsights service was previously known as OfficeGraph components. 
-
+> APIs under the `/beta` version in Microsoft Graph are subject to change. Use of these APIs in production applications is not supported.
