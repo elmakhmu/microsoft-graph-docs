@@ -45,6 +45,9 @@ Do not supply a request body for this method.
 
 If successful, this method returns a `200 OK` response code and [organizationsettings](../resources/organizationsettings.md) object in the response body.
 
+> [!NOTE]
+> This endpoint does not check existence of an AAD Group. Hence, if the AAD group has been deleted, then this method will show previously predefined value of 'disabledForGroup' property but item insights of these group members will be enabled. 
+
 ## Example
 
 ##### Request
