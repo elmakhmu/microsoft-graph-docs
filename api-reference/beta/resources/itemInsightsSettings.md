@@ -17,7 +17,7 @@ Complex type containing itemInsights settings.
 | Property   | Type|Description|
 |:---------------|:--------|:----------|
 |isEnabledInOrganization|Boolean| **true**(default) if organization itemInsights are enabled; **false** if organization itemInsights are disabled for all users without exceptions. Not required.|
-|disabledForGroup|String|an Id of security AAD group, whose members' itemInsights are disabled. Not required.|
+|disabledForGroup|String|(default empty) an Id of security AAD group, whose members' itemInsights are disabled. Not required.|
 
 ## JSON representation
 
