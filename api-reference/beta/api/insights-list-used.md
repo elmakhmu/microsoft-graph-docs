@@ -72,6 +72,20 @@ Do not supply a request body for this method.
 ## Response
 
 If successful, this method returns a `200 OK` response code and a list of [used](../resources/insights-used.md) items in the response body.
+
+If item insights of targeted user have been disabled, this method returns `403 Forbidden` and a JSON code
+```
+{
+  "error": {
+    "code": "ItemInsightsDisabled",
+    "message": " The access to the requested resource is denied because item insights are disabled.",
+    "innerError": {
+      "requestId": "request-id",
+      "date": "date-time"
+    }
+  }
+}
+```
 ## Example
 
 ##### Request
