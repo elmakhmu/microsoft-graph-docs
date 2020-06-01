@@ -10294,6 +10294,8 @@
           items:
           - name: List shared
             href: api/insights-list-shared.md
+        - name: Customize insights privacy
+          href: concepts/customize-item-insights-privacy.md
       - name: Mention (preview)
         href: resources/mention.md
       - name: Analytics (preview)
