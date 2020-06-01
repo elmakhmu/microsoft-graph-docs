@@ -7,6 +7,8 @@ ms.prod: "insights"
 ms.custom: scenarios:getting-started
 ---
 IN PROGRESS
+OfficeGraph -> ItemInsights
+
 # Overview of customizing item insights privacy in Microsoft Graph
 
 ## item insights limitation settings
