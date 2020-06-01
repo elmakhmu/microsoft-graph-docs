@@ -9425,6 +9425,13 @@
             href: api/orgcontact-get-manager.md
           - name: Get member objects
             href: api/orgcontact-getmemberobjects.md
+      - name: Organization settings
+        href: resources/organizationsettings.md
+        items:
+        - name: Get org settings
+          href: api/organizationsettings-get.md
+        - name: Update org settings
+          href: api/organizationsettings-update.md
       - name: Policy
         href: resources/policy-overview.md
         items:
