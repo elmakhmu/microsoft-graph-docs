@@ -10277,7 +10277,7 @@
           - name: Delete
             href: api/personwebsite-delete.md
       - name: Insights
-        href: resources/officegraphinsights.md
+        href: resources/itemInsights.md
         items:
         - name: Trending
           href: resources/insights-trending.md
