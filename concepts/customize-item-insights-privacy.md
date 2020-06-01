@@ -8,6 +8,10 @@ ms.custom: scenarios:getting-started
 ---
 IN PROGRESS
 OfficeGraph -> ItemInsights
+Angela. Because we don’t want the term “Office Graph” and related API “officeGraphInsights” to remain in the lingo, aside from the docs, we will still need to message out, in a blog post and other means (like contacting existing customers?): 
+•	By a certain date, customers should update their code to access the 3 nav properties through itemInsights. 
+•	Technically, the timeline is not enforceable because the officeGraphInsights will continue to be available.
+
 
 # Overview of customizing item insights privacy in Microsoft Graph
 
