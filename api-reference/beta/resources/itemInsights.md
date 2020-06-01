@@ -33,6 +33,7 @@ Each insight is returned with a `resourceVisualization` and `resourceReference` 
 
 ## Item insights limitations
 Some item insights can be disabled for members of a specific security AAD group or for entire organization by updating [organizationsettings](organizationsettings.md) object using [organizationsettings-update](../api/organizationsettings-update.md). 
+
 [Read more about customization of item insights](/concepts/customize-item-insights-privacy.md). 
 
 ## JSON representation
