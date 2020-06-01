@@ -1,6 +1,6 @@
 ---
 title: "officeGraphInsights resource type"
-description: "Insights are relationships calculated using advanced analytics and machine learning techniques. You can, for example, identify OneDrive documents trending around users."
+description: "Represents the base type for [itemInsights](itemInsights.md). officeGraphInsights is for backward compatibility from earlier versions of the insights API. Use only itemInsights when accessing the insights API."
 author: "simonhult"
 localization_priority: Priority
 ms.prod: "insights"
@@ -27,29 +27,18 @@ Each insight is returned with a `resourceVisualization` and `resourceReference` 
 
 | Relationship      | Type          | Description  |
 | ------------- |---------------| -------------|
-| trending    	| [trending](insights-trending.md) collection		| Calculated relationship identifying trending documents. Trending documents can be stored in OneDrive or in SharePoint sites.	 |
-| used    	| [usedInsight](insights-used.md) collection		| Calculated relationship identifying documents viewed and modified by a user. Includes documents the user used in OneDrive for Business, SharePoint, opened as email attachments, and as link attachments from sources like Box, DropBox and Google Drive.	 |
-| shared    	| [sharedInsight](insights-shared.md) collection		| Calculated relationship identifying documents shared with a user. Documents can be shared as email attachments or as OneDrive for Business links sent in emails.	 |
+| trending    	| [trending](insights-trending.md) collection		| Access this property from the derived type [itemInsights](itemInsights.md) |
+| used    	| [usedInsight](insights-used.md) collection		| Access this property from the derived type [itemInsights](itemInsights.md)|
+| shared    	| [sharedInsight](insights-shared.md) collection		| Access this property from the derived type [itemInsights](itemInsights.md) |
 
 ## JSON representation
 
 Here is a JSON representation of the resource
-<!-- {
-  "blockType": "resource",
-  "keyProperty":"id",
-  "baseType":"microsoft.graph.entity",
-  "optionalProperties": [
-    "trending",
-    "used",
-    "shared"
-  ],
-  "@odata.type": "microsoft.graph.officeGraphInsights"
-}-->
 
 ```json
 {
   "id": "string",
-  "trending": [ { "@odata.type": "microsoft.graph.trending" } ],
+  "iteminsights": [ { "@odata.type": "microsoft.graph.trending" } ],
   "used": [ { "@odata.type": "microsoft.graph.used" } ],
   "shared": [ { "@odata.type": "microsoft.graph.shared" } ]
 }
